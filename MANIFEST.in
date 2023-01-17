@@ -1,0 +1,10 @@
+recursive-include mkdocs_macros_test *.ico *.js *.css *.png *.html *.j2 *.eot *.svg *.ttf *.woff *.yml
+include  LICENSE.md
+include README.md
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+exclude MANIFEST.in
+exclude Makefile
+exclude docker-compose.yml
+exclude setup.py
+exclude update_pypi.sh
