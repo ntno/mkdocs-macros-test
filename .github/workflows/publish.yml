@@ -37,7 +37,7 @@ permissions:
 jobs:
   publish_pypi:
     name: Build and push Python package
-    if: github.event.repository.fork == false
+    # if: github.event.repository.fork == false
     runs-on: ubuntu-latest
     steps:
 
