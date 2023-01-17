@@ -22,7 +22,7 @@ install-build-requirements:
 build-pip-dist:
 	python -m build --outdir ./dist
 
-build-theme: clean install-build-requirements build-pip-dist
+build: clean install-build-requirements build-pip-dist
 
 check-dist:
 	tar tf dist/*.tar.gz
@@ -32,3 +32,9 @@ clean-dist:
 	rm -rf dist/
 
 clean: clean-dist
+
+install-tox:
+	python -m pip install -U tox
+
+tox: install-tox
+	python -m tox -e py 
