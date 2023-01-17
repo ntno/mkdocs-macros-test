@@ -1,3 +1,7 @@
+.tox
+build/**
+dist/**
+
 # Temporary files
 *~
 .py~
