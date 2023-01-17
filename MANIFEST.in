@@ -6,3 +6,5 @@ recursive-exclude * *.py[co]
 exclude MANIFEST.in
 exclude Makefile
 exclude docker-compose.yml
+exclude setup.py
+exclude update_pypi.sh

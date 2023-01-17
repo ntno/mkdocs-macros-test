@@ -39,3 +39,16 @@ plugins:
   - macros:
       modules: ['mkdocs_test`] 
 ```
+
+
+### Notes
+https://github.com/fralau/mkdocs_macros_plugin
+question - can this plugin be used to change the jinja2 environment that mkdocs uses?
+
+use case:
+i would like to be able to install a jinja2 extension and then use that extension in my custom mkdocs theme
+
+in particular: 
+https://github.com/danielchatfield/jinja2_markdown
+
+https://github.com/fralau/mkdocs_macros_plugin/blob/master/mkdocs_macros/plugin.py#L583
