@@ -1,3 +1,5 @@
+# Archived - see pluglet in [mkdocs-terminal](https://github.com/ntno/mkdocs-terminal)
+
 # Test pluglet for mkdocs-macros
 
 ## What it is
